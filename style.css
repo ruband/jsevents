@@ -1,0 +1,16 @@
+span {
+    width: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    color: red;
+    font-size: 13pt;
+    display: inline-block;
+    border: 2px solid #000;
+    background-color: cornsilk;
+    padding: 7px;
+    transform-origin: 100% 50%;
+    transition: trfnsform 0.5s ease-out;
+}
+span.active {
+    transform: translateX(900%);
+}
